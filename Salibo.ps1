@@ -33,7 +33,7 @@ if($help -eq $true)
         Write-Host '-timestamps       Add timestamp to each attempt. Default: $false'
         Write-Host '-WINRMStealth     If machine is on the domain it will not try to connect to WINRM and will just validate credentials failures are not in logs. Requires auth to be set to KERBEROS on non-Domain joined machine. Default: $false'
         Write-Host
-        Write-Host 'Example Usage: PasswordSpray.ps1 -u ".\users.txt" -p "P@ssword" -dc "BBL-DC" -domain "BBLABS.LOCAL" -method "CIM" -auth "KERBEROS" -timestamps $true -delay 30 -jitter 15'
+        Write-Host 'Example Usage: Salibo.ps1 -u ".\users.txt" -p "P@ssword" -dc "BBL-DC" -domain "BBLABS.LOCAL" -method "CIM" -auth "KERBEROS" -timestamps $true -delay 30 -jitter 15'
         exit
     }
 
